@@ -22,7 +22,7 @@ public class KafkaServerConfig {
     }
 
     public static Properties getConsumerProperties() {
-        String groupId = "first_app";
+        String groupId = "first_consumers_gp";
 
         Properties properties = new Properties();
         properties.setProperty(ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG, BROKERS);
